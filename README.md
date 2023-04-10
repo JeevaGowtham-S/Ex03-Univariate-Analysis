@@ -26,7 +26,7 @@ Count the values from the data.
 Do plots like boxplots,countplot,distribution plot,histogram plot.
 
 ## PROGRAM:
-
+```
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -42,12 +42,12 @@ sns.boxplot(x="Postal Code", data=df)
 sns.countplot(x="Postal Code", data=df)
 sns.distplot(df["Postal Code"])
 sns.histplot(x="Postal Code", data=df)
-
+```
 
 ## OUTPUT:
 ##  Dataset:
 ![1](https://user-images.githubusercontent.com/118042624/230831343-b0352b4e-98ed-47c2-ba8a-429908d0367d.png)
- Dataset:
+
 
 
 ## Head:
